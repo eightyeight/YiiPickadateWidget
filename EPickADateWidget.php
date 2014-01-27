@@ -1,4 +1,14 @@
-<?
+<?php
+
+/**
+ * YiiPickADateWidget class file.
+ * @author  Bodrov Ilia <ibodrov@outlook.com>.
+ * @license http://www.gnu.org/licenses/agpl-3.0.html GNU Affero General Public License.
+ * 
+ * EPickADateWidget class encapsulates some nice Javascript libraries created by @author Amsul, @link https://github.com/amsul . 
+ * To see realization follow @link http://amsul.ca/pickadate.js .
+ */
+
 class EPickADateWidget extends CInputWidget
 {
 
@@ -35,8 +45,8 @@ class EPickADateWidget extends CInputWidget
 
     /**
 	 * @var array the initial JavaScript options that should be passed to the Pickatime.js plugin.
-	 * For more info about Picktime.js plugin's options follow the link http://amsul.ca/pickadate.js/date.htm#options. 
-  	 * Or http://amsul.ca/pickadate.js/time.htm#options for time pick fields.
+	 * For more info about Picktime.js plugin's options follow the @link http://amsul.ca/pickadate.js/date.htm#options. 
+  	 * Or @link http://amsul.ca/pickadate.js/time.htm#options for time pick fields.
  	 */
 	public $options=array();
 
