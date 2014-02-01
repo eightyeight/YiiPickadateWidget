@@ -13,7 +13,7 @@ $this->widget('ext.pickadate.EPickADateWidget',
 			             array('pickerType' => 'datepicker', // set timepicker to change type.
                                'model' => $model,
                                'attribute'=> 'atribute',			             	
-                               'language' => 'ru_RU',  //this is the name of a local file that placed in / assets / languages
+                               'language' => 'ru_RU',  //this is the name of a locale file that placed in / assets / languages
                                'htmlOptions' => array( 'class'=> 'date-input'), //some htmloptions
                                'options' => array( 'showMonthsShort' => 'true'), //options that's should pass to JS 
 						      ));
