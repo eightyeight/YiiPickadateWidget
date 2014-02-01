@@ -17,7 +17,8 @@ $this->widget('ext.pickadate.EPickADateWidget',
                                'htmlOptions' => array( 'class'=> 'date-input'), //some htmloptions
                                'options' => array( 'showMonthsShort' => 'true'), //options that's should pass to JS 
 						      ));
-						      ```
+
+```
 
 
 
