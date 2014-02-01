@@ -8,14 +8,16 @@ Usage
 -----
 Call widget as usual.
 
-<?$this->widget('ext.pickadate.EPickADateWidget', 
+```php
+$this->widget('ext.pickadate.EPickADateWidget', 
 			             array('pickerType' => 'datepicker', // set timepicker to change type.
                                'model' => $model,
                                'attribute'=> 'atribute',			             	
                                'language' => 'ru_RU',  //this is name of local file that's находится in directory /assets/lang
                                'htmlOptions' => array( 'class'=> 'date-input'), //some htmloptions
                                'options' => array( 'showMonthsShort' => 'true'), //options that's should pass to JS 
-						      ));?>
+						      ));
+						      ```
 
 
 
