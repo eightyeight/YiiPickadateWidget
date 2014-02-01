@@ -12,42 +12,42 @@
 class EPickADateWidget extends CInputWidget
 {
 
-    /**
-    * @var string Pickatime theme name.
-    * Defaults to 'classic'.
-    * To change theme to Default Theme set value to 'default'
-    */
-    public $theme = 'classic';
+  /**
+  * @var string Pickatime theme name.
+  * Defaults to 'classic'.
+  * To change theme to Default Theme set value to 'default'
+  */
+  public $theme = 'classic';
 
-    /**
-    * @var string type of picker.
-    * Defaults to 'datepicker'.
-    * If you needed to pick a time, set value to 'timepicker'.
-    */
-    public $pickerType = 'datepicker';
+  /**
+  * @var string type of picker.
+  * Defaults to 'datepicker'.
+  * If you needed to pick a time, set value to 'timepicker'.
+  */
+  public $pickerType = 'datepicker';
 
-    /**
-    * @var string.
-    * To change the language, set the variable string to filename without the filename extension. 
-    * Filenames of locale files you can find in dir \assets\translations\. 
-    * In most cases, you'll need to set a variable, as you always do this , for example, 'ru_RU', 'en_US', etc.
-    * More info: @link http://amsul.ca/pickadate.js/date.htm#translations.
-    */ 
-    public $language = '';
-    
-    /**
-    * @var boolean.
-    * For right-to-left (RTL) languages you’ll need to switch the arrows and text direction. 
-    * Set variable true to link the rtl.css file.
-    * Defaults to false.
-    */ 
-    public $rtl = false;	
+  /**
+  * @var string.
+  * To change the language, set the variable string to filename without the filename extension. 
+  * Filenames of locale files you can find in dir \assets\translations\. 
+  * In most cases, you'll need to set a variable, as you always do this , for example, 'ru_RU', 'en_US', etc.
+  * More info: @link http://amsul.ca/pickadate.js/date.htm#translations.
+  */ 
+  public $language = '';
 
-    /**
-	 * @var array the initial JavaScript options that should be passed to the Pickatime.js plugin.
-	 * For more info about Picktime.js plugin's options follow the @link http://amsul.ca/pickadate.js/date.htm#options. 
-  	 * Or @link http://amsul.ca/pickadate.js/time.htm#options for time pick fields.
- 	 */
+  /**
+  * @var boolean.
+  * For right-to-left (RTL) languages you’ll need to switch the arrows and text direction. 
+  * Set variable true to link the rtl.css file.
+  * Defaults to false.
+  */ 
+  public $rtl = false;	
+
+  /**
+  * @var array the initial JavaScript options that should be passed to the Pickatime.js plugin.
+  * For more info about Picktime.js plugin's options follow the @link http://amsul.ca/pickadate.js/date.htm#options. 
+  * Or @link http://amsul.ca/pickadate.js/time.htm#options for time pick fields.
+  */
 	public $options=array();
 
      

@@ -9,7 +9,7 @@ Usage
 Call widget as usual.
 
 <?$this->widget('ext.pickadate.EPickADateWidget', 
-			             array('pickerType' => 'datepicker',
+			             array('pickerType' => 'datepicker', // set timepicker to change type.
                                'model' => $model,
                                'attribute'=> 'atribute',			             	
                                'language' => 'ru_RU',  //this is name of local file that's находится in directory /assets/lang
@@ -17,5 +17,5 @@ Call widget as usual.
                                'options' => array( 'showMonthsShort' => 'true'), //options that's should pass to JS 
 						      ));?>
 
-						      
+
 
